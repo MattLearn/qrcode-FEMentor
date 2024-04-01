@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href='./image/_favicon-32x32.png'>
+  
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    .flex{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(150, 202, 247);
+        }
+
+    .card{
+      max-width: 320px;
+      max-height: 497px;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 20px;
+    }
+
+    .qr-img
+    {
+      width: 90%;
+      margin: 16px 16px 0px 16px;
+      border-radius: 20px;
+    }
+
+    .text-block{
+      max-width: 288px;
+      max-height: 129px;
+      margin: 24px 16px 40px 16px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    strong{
+      height: auto;
+      width: 250px;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0px 0px 16px 0px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    
+    .regular-text{
+      height: auto;
+      width: 240px;
+      font-size: 15px;
+      color: grey;
+      margin: 0px 0px 0px 0px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    
+    .attribution { 
+        position: relative;
+        margin-top: 40px;;
+        font-size: 15px;
+        text-align: center;
+      }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="flex">
+  <div class="card">
+    <img class="qr-img" src='./image/_qrcode.png' alt="qr-code">
+    <div class="text-block">
+      <strong>Improve your front-end skills by building projects</strong>
+      <p class="regular-text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/MattLearn">Mattlearns</a>.
+  </div>
+</body>
+</html>
